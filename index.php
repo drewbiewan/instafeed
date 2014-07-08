@@ -8,12 +8,17 @@
     <title>InstaFeed PHP</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <script src="js/vendor/modernizr.js"></script>
+    <style>
+    	div a img {
+	    	max-width: 100px;
+    	}
+    </style>
   </head>
   <body>
     
     <div class="row">
     	<div class="large-12 medium-12 columns">
-    		<?php echo instaFeed(); ?>
+    		<div><?php echo instaFeed(); ?></div>
     	</div>
     </div>
 	  
