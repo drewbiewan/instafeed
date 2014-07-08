@@ -3,8 +3,10 @@ instafeed
 
 PHP Instagram feed fetcher.
 
-Usage:
-• Include instafeed.php 
-• Add your user ID and access token
-• add echo instaFeed();
-• Thats it!
+<b>Usage:</b> <br>
+<ul>
+  <li>Include instafeed.php </li>
+  <li>Add your user ID and access token</li>
+  <li>Add echo instaFeed();</li>
+  <li>Thats it!</li>
+</ul>
