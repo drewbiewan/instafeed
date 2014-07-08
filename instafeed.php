@@ -6,8 +6,8 @@ function instaFeed()
 	
 	// Instagram Authentication Variables. To Generate an access Token: 
 	
-	$userID = '545663';
-	$accessToken = '545663.467ede5.df3b50f631b9455c9f3300d0909d9469';
+	$userID = '';
+	$accessToken = '';
 	
 	// Use curl to fetch the data from instagram
 	
@@ -38,7 +38,7 @@ function instaFeed()
 		
 		$photos[] =  '
 			<a class="ig-photo" target="blank" href="' . $ig->link . '">
-				<img src="' . $ig->images->low_resolution->url . '" alt="' . $ig->caption->text . '" width="100%" height="auto" />
+				<img src="' . $ig->images->low_resolution->url . '" alt="' . $ig->caption->text . '" />
 			</a>';
 		
 	}
